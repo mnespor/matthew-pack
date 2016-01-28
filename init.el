@@ -9,4 +9,5 @@
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
 (setq mouse-wheel-progressive-speed nil)
 (setq mouse-wheel-follow-mouse 't)
-
+(add-to-list 'auto-mode-alist '("Fastfile$" . ruby-mode))
+(add-to-list 'auto-mode-alist '("Podfile$" . ruby-mode))
